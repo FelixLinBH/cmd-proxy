@@ -1,8 +1,12 @@
 {
   "name": "cmd-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command-line proxy interface",
   "main": "index.js",
+  "bin":
+  {
+      "cmd-proxy": "./bin/cmd-proxy"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
